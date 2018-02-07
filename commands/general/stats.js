@@ -23,6 +23,7 @@ class Stats extends Command {
 • Servers    :: ${this.client.guilds.size.toLocaleString()}
 • Channels   :: ${this.client.channels.size.toLocaleString()}
 • Discord.js :: v${version}
+• Owner :: Star#7562
 • Node       :: ${process.version}\`\`\``)
       .setColor(message.guild.me.roles.highest.color || 5198940)
       .addField("Invite Me", "If you want to add me to your guild, you can do so by grabbing my invite code from [here](https://discordapp.com/oauth2/authorize/?permissions=268755008&scope=bot&client_id=396323622953680910)")
